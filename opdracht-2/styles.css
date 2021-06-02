@@ -3,3 +3,90 @@
 ========================================================= */
 
 /* Schrijf hier  jouw CSS! */
+
+/* 2.1 Zorg dat het paarse review-blok er zo uit komt te zien door flexbox te gebruiken:*/
+
+.one {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+/* 2.2 Zorg dat de <div class="two"> er zo uit komt te zien door flexbox te gebruiken:*/
+
+.two {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* 2.3 Zorg dat de <div class="three"> er zo uit komt te zien door flexbox te gebruiken:*/
+
+.three {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-basis: 300px;
+}
+
+#item-1 {
+    flex-basis: 80px;
+}
+
+#item-2{
+    flex-basis: 100px;
+}
+
+#item-3 {
+    flex-basis: 100px;
+}
+
+/* 2.4 Zorg dat het login-blok er zo uit komt te zien door flexbox te gebruiken:*/
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.opdracht4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+
+/* 2.5 Zorg dat de layout van de gele blokken er zo uit komt te zien door flexbox te gebruiken. Elk blok heeft een minimale breedte van 1/3 van het originele scherm van 1200px. Let op: er zit ook nog padding op.*/
+
+.five {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#lorum-1 {
+    flex-basis: 400px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    padding: 20px;
+}
+
+#lorum-2 {
+    flex-basis: 400px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    padding: 20px;
+}
+
+#lorum-3 {
+    flex-basis: 400px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    padding: 20px;
+}
